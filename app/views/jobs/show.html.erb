@@ -1,0 +1,15 @@
+<article>
+  <h1><%= @job.title %>
+    <dl>
+      <dt>Category</dt>
+      <dd><%= @job.category %></dd>
+      <dt>Company</dt>
+      <dd><%= @job.company %></dd>
+      <dt>Description</dt>
+      <dd><%= @job.description %></dd>
+      <dt>Location</dt>
+      <dd><%= @job.location %></dd>
+    </dl>
+</article>
+
+<%= link_to 'Voltar', root_path %>
