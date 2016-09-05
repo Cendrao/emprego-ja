@@ -4,6 +4,7 @@
   <% @jobs.each do |job| %>
     <article>
       <h1><%= link_to job.title, job %></h1>
+      <strong>Destaque</strong>
       <dl>
         <dt>Company</dt>
         <dd><%= job.company %></dd>
